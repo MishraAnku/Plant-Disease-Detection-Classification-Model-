@@ -1,28 +1,4 @@
 <h1 align="center">Plant-Disease-Detection-and-Solution</h1>
-<div align="center" width="100%">
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/android/android.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kotlin/kotlin.png"></code>
-</div>
-
-
-<p align="center">Project on Plant Disease detection and Solutions using Image Classification technique.</p>
-<br>
-
-<div align="center" width="100%">
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-<br>
-
-![conda-python]
-![conda-tensorflow]
-![conda-keras]
-</div>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -46,11 +22,6 @@
 * [Improvising And Upgrading Task](#improvising-and-upgrading-task)
   * [What we learned](#what-we-learned)
   * [Whats next](#whats-next)
-  * [Future Task](#future-task)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 <!-- ABOUT THE PROJECT -->
@@ -104,15 +75,6 @@ Here, are some software & tools required that are used for building and enhancin
 
     `Note: I have built this project using Google Colab. Due to low performance of my system.`
 
-### Installation
-
-1. Download and Install Python from above link if not installed.
-1. Download Anaconda from above link if not installed.
-1. For Installing Anaconda, Follow steps performed from below given Video Link. 
-    * [Setup Anaconda][setup-anaconda]
-1. After Installing, open Anaconda and launch Jupyter Notebook.
-1. Now open notebook files from project folder.
-
 ### Working
 
 The android application developed for the purpose provides the services while keeping in mind the ease for the user to interact with it. The application provides a handy camera integration to allow the farmer to click an image of the crop he wishes to diagnose. This image is processed in the backend using a deep learning model to classify the plant disease. The classification includes a class "background" exclusively to alert the user that the camera frame did not capture the infected area of the plant properly. It can detect any disease on the plant leaves. Further, it gives information about the parent plant and recommendations on how to improve the plant health and along with information of the natural breeding environment of the plant. If there is any confusion left by the AI, then the app also gives information on symptoms of the disease. This is pretty helpful from the farmer's point of view as information’s like these help the farmer to catch early disease symptoms, recognize current infections and also guides how these diseases can be cured. What's more to this is that the application is built using Tensorflow lite technology to improve memory and time efficiency of the application. With the help of this, the AI processes the image within seconds without affecting the other processes of the device.
@@ -127,39 +89,12 @@ We used convolution networks for image classification of the disease classes. We
 
 The android application was developed using the android studio framework. The different phases of the application involve a live camera feed in the beginning. The user clicks an image from the camera feed. The application sends this image for preprocessing from where it is pushed as input to the AI model. The AI model outputs the class of the plant and disease. We use this to pull out information about this plant and disease from our knowledge base. The application then displays all the relevant information about the prediction for the farmer's help.
 
-## Usage
-
-Below screen provides usage of our android app demo.
-
-<div align="center" width="100%">
-<img src="usage/usage.gif" alt="App Usage showcase gif" title="App Usage showcase gif" width="400"/>
-</div>
-
-## Pre-compiled version
-
-`Note: This Pre-compiled version contains files which we received after computing but We have added these as If computing is not possible for system user's .`
-
-> [Pre-Compiled version](https://sahilthakur27.gumroad.com/l/plant_diseas_premade_version)
-
-
-## Challenges And Accomplishments
-
-### Challenges
-    Setting up a real-time environment in the android application.
-
 ### Accomplishments
 
 1. Creating an application where there is access to a camera which is practical enough for a normal user's usage.
 1. The time and memory-efficient AI model implementation which would help this application to be used on lower level android applications.
 1. The display of possible symptoms to catch the disease at an early stage which might be predicted with low confidence by the AI model. Sometimes such low confidence predictions which don't have visual support to prove are ignored by users. Pointing out the symptoms would give a strong support to diagnose a hidden disease at an early stage.
 1. Information on how to cure the disease detected. Guides the user with a path for action too instead of just identification and detection.
-
-    `With all these accomplishments.`
-
-## Improvising And Upgrading Task
-
-### What we learned
-> **_`With even simple impactful applications we can improve a lot indirectly.`_**
 
 ### Whats next
 
@@ -171,69 +106,3 @@ Integrating a Chatbot for more advice and interaction with the user. Adding link
 * Ordering fertilizer from ecommerce site.
 * Setting reminder for pesticides/watering etc.
 * Advising on best practices.
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-* Fork the [Project][fork].
->    *`OR`*
-* Please read [CONTRIBUTING][contributing], for details on our code of conduct, and the process for submitting pull requests to us.
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See [***`LICENSE`***][license-url] for more information.
-
-<!-- CONTACT -->
-## Contact
-
-* [*Twitter*](https://twitter.com/devil_2708)
-* [*Gmail*](sahilthakur376@gmail.com)
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [W3school](https://www.w3schools.com/)
-* [Learn Kotlin](https://developer.android.com/kotlin/campaign/learn)
-* [Learn Python](https://www.learnpython.org/)
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/DevilStudio27/Plant-Disease-Detection-and-Solution?color=cyan&label=Contributors&logo=github&logoColor=cyan&style=flat-square
-[contributors-url]: https://github.com/DevilStudio27/Plant-Disease-Detection-and-Solution/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Devilstudio27/Plant-Disease-Detection-and-Solution?color=cyan&label=Forks&logo=github&logoColor=cyan&style=flat-square
-[forks-url]: https://github.com/DevilStudio27/Plant-Disease-Detection-and-Solution/network/members
-[stars-shield]: https://img.shields.io/github/stars/DevilStudio27/Plant-Disease-Detection-and-Solution?color=cyan&label=Stars&logo=github&logoColor=cyan&style=flat-square
-[stars-url]: https://github.com/DevilStudio27/Plant-Disease-Detection-and-Solution/stargazers
-[issues-shield]: https://img.shields.io/github/issues/DevilStudio27/Plant-Disease-Detection-and-Solution?color=cyan&label=Issues&logo=github&logoColor=cyan&style=flat-square
-[issues-url]: https://github.com/DevilStudio27/Plant-Disease-Detection-and-Solution/issues
-[license-shield]: https://img.shields.io/github/license/devilstudio27/Plant-Disease-Detection-and-Solution?color=cyan&label=MIT%20License&logo=github&logoColor=cyan&style=flat-square
-[license-url]: https://github.com/DevilStudio27/Plant-Disease-Detection-and-Solution/blob/main/LICENSE
-
-
-[contributing]:https://github.com/DevilStudio27/Plant-Disease-Detection-and-Solution/graphs/contributors
-[fork]:https://github.com/DevilStudio27/Plant-Disease-Detection-and-Solution/network/members
-
-
-[conda-python]:https://img.shields.io/conda/v/anaconda/python?color=cyan&label=Python&logo=python&style=flat-square
-[conda-tensorflow]:https://img.shields.io/conda/v/anaconda/tensorflow?color=cyan&label=Tensorflow&logo=Tensorflow&style=flat-square
-[conda-keras]:https://img.shields.io/conda/v/anaconda/keras?color=cyan&label=Keras&logo=keras&logoColor=ff0000&style=flat-square
-
-[learn-python]:https://www.learnpython.org/
-[python-w3]:https://www.w3schools.com/python/
-[kotlin]:https://developer.android.com/kotlin/campaign/learn
-
-[dataset-onedrive]:https://bit.ly/PlantDiseaseDatasetRequest
-[json-drive]:https://sahilthakur27.gumroad.com/l/plant_disease_data_json
-
-[python-down]:http://bit.ly/PythonDown
-[conda-ie]:http://bit.ly/CondaDown
-[vscode-down]:http://bit.ly/VSCodeDown
-[pycharm-down]:http://bit.ly/PycharmDown
-[setup-anaconda]:http://bit.ly/setupConda
