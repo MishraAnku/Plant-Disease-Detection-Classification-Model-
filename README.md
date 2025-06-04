@@ -1,28 +1,5 @@
 <h1 align="center">Plant-Disease-Detection-and-Solution</h1>
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-
-* [About the Project](#about-the-project)
-  * [Language Used](#language-used)
-  * [Files Required](#files-required)
-  * [Files](#files)
-  * [Inspiration](#inspiration)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-  * [Working](#working)
-* [How We Build It](#how-we-build-it)
-    * [The AI Model](#the-ai-model)
-    * [The Android App](#the-android-app)
-* [Usage](#usage)
-* [Challenges And Accomplishments](#challenges-and-accomplishments)
-  * [Challenges](#challenges)
-  * [Accomplishments](#accomplishments)
-* [Improvising And Upgrading Task](#improvising-and-upgrading-task)
-  * [What we learned](#what-we-learned)
-  * [Whats next](#whats-next)
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
